@@ -1,8 +1,22 @@
 import styled from 'styled-components';
 
 export const NavItem = styled.div`
-    background-color: #bbcc33;
-    height: 100px;
-    width: 100px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;
+    
+    button{
+        color: black;
+        background-color: #fcde3d;
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius: 2px;
+        margin: 0 10px;
+        font-size: 1em;
+        font-weight: bold;
+    }
 `; 
 
