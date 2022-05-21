@@ -1,10 +1,25 @@
 import styled from 'styled-components';
 
 export const NavContainer = styled.div`
-   background-color: grey;
-   width: 100vw;
-   height: 100vh;
+   
    display: flex;
    align-items: center;
-   justify-content: center;
+   flex-direction: column;
+   width: 80%;
+   height: 80%;
+
+   section{
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 100%;
+   }
+
+   h1{
+      color:  #fcde3d;
+      font-size: 2rem;
+      font-weight: bolder;
+   }
 `; 
