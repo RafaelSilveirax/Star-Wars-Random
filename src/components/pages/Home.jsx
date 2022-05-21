@@ -14,6 +14,7 @@ export function Home(){
     const [categories, setCategories] = useState(null);
 
     useEffect(() => {
+      console.log("opa")
       api.get().then((response) => {
         
         setCategories(makeNewArray(response.data))

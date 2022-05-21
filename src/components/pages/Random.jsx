@@ -1,7 +1,15 @@
 import { useLocation } from 'react-router-dom'  
 import { useState, useEffect } from "react";
 import axios from 'axios';
+import CardFilms from '../baseComponents/cardFilms/CardFilms'
 
+function numbeRandom(total){
+    return Math.floor(Math.random() * (total))
+}
+
+const compObj = {
+    "films": <CardFilms/>
+}
 export function Random(){
 
     const location = useLocation()
@@ -12,20 +20,18 @@ export function Random(){
     
         useEffect(() => {
             axios.get(apiCategory).then((response) => {
-            console.log("🚀 ~ file: Random.jsx ~ line 16 ~ axios.get ~ response", response)
-            setPost(response.data)
-           
+            setPost(response.data)      
         });
-        }, []);
-      
+        }, []); 
         if (!post) return null;
 
-        var qtdTotal = (post.count)
-        console.log(qtdTotal)
+        console.log("🚀 ~ file: Random.jsx ~ line 27 ~ Random ~ post", post)
+        
 
     return(
-        <div>
-            <h1>{location.state.from}</h1>
-        </div>
+        <>
+            <h1>{numbeRandom(post.count)}</h1>
+            {compObj[ "films"]}
+        </>
     )
 } 
