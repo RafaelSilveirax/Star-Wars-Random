@@ -9,11 +9,15 @@ export const Container = styled.div`
    justify-content: center;
    background:url(${img});
    background-size: cover;
+
+   h1{
+      color: #fcde3d;
+   }
 `; 
 
 export const SubContainer = styled.div`
    max-width: 600px;
-   width: 100%;
+   width: calc(100% - 30px);
    height: 600px;
    display: flex;
    align-items: center;
@@ -21,10 +25,7 @@ export const SubContainer = styled.div`
    flex-direction: column;
    border: 2px solid #FCDE3D;
    border-radius: 4px;
-
-   h1{
-      color: #fcde3d;
-   }
+ 
 `; 
 
 
