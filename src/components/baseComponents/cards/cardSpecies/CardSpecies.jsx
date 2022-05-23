@@ -33,7 +33,7 @@ const [requestSuc, setRequestSuc] = useState(true);
         {!requestSuc ? <h1>Erro</h1> 
         : loading ? <Loading/> : 
         <S.speciesContainer>
-            <h1>Home World - {species.name}</h1> 
+            <h1>{species.name}</h1> 
             <p>Climate - {species.classification}</p> 
             <p>Gravity - {species.average_height}</p> 
             <p>terrain - {species.language}</p> 

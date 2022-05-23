@@ -26,7 +26,7 @@ const [requestSuc, setRequestSuc] = useState(true);
         {!requestSuc ? <h1>Erro</h1> 
         : loading ? <Loading/> : 
         <S.vehiclesContainer>
-            <h1>Home World - {vehicles.name}</h1> 
+            <h1>{vehicles.name}</h1> 
             <p>Model - {vehicles.model}</p> 
             <p>Passengers - {vehicles.passengers}</p> 
             <p>Vehicle Class - {vehicles.vehicle_class}</p> 

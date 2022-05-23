@@ -7,14 +7,21 @@ export const NavItem = styled.div`
     align-items: center;
     flex: 1 1 50%;
     
+    
+    a{
+        width: 100%;
+        margin: 0 10px;   
+    }
+
     button{
         color: black;
         background-color: #fcde3d;
-        width: 200px;
+        width: 100%;
+        min-width: 200px;
         height: 40px;
         border: none;
         border-radius: 2px;
-        margin: 0 10px;
+       
         font-size: 1em;
         font-weight: bold;
     }
