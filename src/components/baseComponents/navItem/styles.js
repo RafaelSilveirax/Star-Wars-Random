@@ -21,7 +21,8 @@ export const NavItem = styled.div`
         height: 40px;
         border: none;
         border-radius: 2px;
-       
+        text-transform: capitalize;
+        cursor: pointer;
         font-size: 1em;
         font-weight: bold;
     }

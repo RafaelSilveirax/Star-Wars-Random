@@ -1,5 +1,7 @@
 import { useLocation } from 'react-router-dom'  
 import { useState, useEffect } from "react";
+import { AiOutlineRollback } from "react-icons/ai";
+import{Link} from 'react-router-dom'
 import axios from 'axios';
 import CardFilms from '../baseComponents/cards/cardFilms/CardFilms'
 import CardPeople from '../baseComponents/cards/cardPeople/CardPeople'
@@ -41,6 +43,9 @@ export function Random(){
       
     return(
         <>
+            <Link to="/Home" >
+                <AiOutlineRollback/>
+            </Link>
             {compObj[ `${nameCategory}`] }
         </>
             

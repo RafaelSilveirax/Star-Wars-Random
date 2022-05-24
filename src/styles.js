@@ -9,7 +9,7 @@ export const Container = styled.div`
    justify-content: center;
    background:url(${img});
    background-size: cover;
-
+ 
    h1{
       color: #fcde3d;
    }
@@ -25,7 +25,18 @@ export const SubContainer = styled.div`
    flex-direction: column;
    border: 2px solid #FCDE3D;
    border-radius: 4px;
- 
+   position: relative;
+   
+   svg{
+      color: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color:#FCDE3D;
+      font-size: 2rem;
+      border-radius: 0 0px 4px 0;
+      cursor: pointer;
+   }
 `; 
 
 

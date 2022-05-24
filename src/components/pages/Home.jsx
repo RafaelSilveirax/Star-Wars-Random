@@ -20,13 +20,13 @@ export function Home(){
     useEffect(() => {
       api.get().then((response) => {
         setCategories(makeNewArray(response.data))
-        setLoading(false) 
+          setLoading(false)  
       }).catch(function(e){
         setRequestSuc(false)
       })
     }, []);
   
-    if (!categories) return null;
+    if (!categories) return null ;
 
     return(
       <>

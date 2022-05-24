@@ -7,7 +7,7 @@ function Header(){
     return(
         <S.HeaderContainer>
             <GiDeathStar/>
-            <Link to="/">
+            <Link to="/Home">
                 <img src={logoStarwars} alt="" />
             </Link>
             <GiStarfighter/>
