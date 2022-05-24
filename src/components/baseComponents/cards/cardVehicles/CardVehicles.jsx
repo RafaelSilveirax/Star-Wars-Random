@@ -8,7 +8,7 @@ const [vehicles, setVehicles] = useState(null);
 const [loading, setLoading] = useState(true);
 const [requestSuc, setRequestSuc] = useState(true);
     
-    const vehiclesSpecies = axios.create({baseURL: `https://swapi.py4e.com/api/vehicles/${numbRandom}`}) 
+    const vehiclesSpecies = axios.create({baseURL: `https://swapi.dev/api/vehicles/${numbRandom}`}) 
 
     useEffect(() => {
         vehiclesSpecies.get().then((response) => {

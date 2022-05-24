@@ -4,11 +4,11 @@ import axios from 'axios';
 import Loading from "../../loading/Loading";
 
 function CardStarships({itemRandom, numbRandom}){
-const [starships, setStarships] = useState(null);
-const [loading, setLoading] = useState(true);
-const [requestSuc, setRequestSuc] = useState(true);
+    const [starships, setStarships] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [requestSuc, setRequestSuc] = useState(true);
     
-    const vehiclesSpecies = axios.create({baseURL: `https://swapi.py4e.com/api/starships/${numbRandom}`}) 
+    const vehiclesSpecies = axios.create({baseURL: `https://swapi.dev/api/starships/${numbRandom}`}) 
 
     useEffect(() => {
         vehiclesSpecies.get().then((response) => {
@@ -16,7 +16,7 @@ const [requestSuc, setRequestSuc] = useState(true);
             setLoading(false)   
         }).catch(function(e){
             setRequestSuc(false)
-          }); 
+          })
     }); 
 
     if (!starships) return null; 

@@ -9,7 +9,7 @@ const [planet, setPlanet] = useState(null);
 const [loading, setLoading] = useState(true);
 const [requestSuc, setRequestSuc] = useState(true);
     
-    const apiPeople = axios.create({baseURL: `https://swapi.py4e.com/api/people/${numbRandom}`}) 
+    const apiPeople = axios.create({baseURL: `https://swapi.dev/api/people/${numbRandom}`}) 
     
     useEffect(() => {
         apiPeople.get().then((response) => {
