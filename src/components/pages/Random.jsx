@@ -29,7 +29,6 @@ export function Random(){
 
 
         useEffect(() => {
-            console.log("dale")
             api.get(apiCategory).then((response) => {           
             var numbRandom = numberRandom(response.data.count)
     
