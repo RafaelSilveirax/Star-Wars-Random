@@ -12,7 +12,7 @@ Projeto pronto para rodar.
 # Hospedado
 ### https://star-wars-random.vercel.app/
 
-#Apresentação Visual Basica.
+
 <img src="https://s8.gifyu.com/images/press.gif" width="200"  height="200">
 <img src="https://i.imgur.com/zhqnHZR.png" width="200"  height="200">
 <img src="https://s8.gifyu.com/images/text_1.gif" width="200"  height="200">
