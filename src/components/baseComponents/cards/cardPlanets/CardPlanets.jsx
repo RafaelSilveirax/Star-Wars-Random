@@ -3,7 +3,7 @@ function CardPlanets({req}){
 
     return(
         <S.planetContainer>
-            <h1>Home World - {req.name}</h1> 
+            <h1>{req.name}</h1> 
             <p>Climate - {req.climate}</p> 
             <p>Gravity - {req.gravity}</p> 
             <p>terrain - {req.terrain}</p> 

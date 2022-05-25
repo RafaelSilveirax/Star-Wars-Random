@@ -7,7 +7,7 @@ export const vehiclesContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+    text-align: center;
     h1{
         padding: 0;
     } 

@@ -8,7 +8,7 @@ export const FilmsContainer = styled.div`
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
-
+    text-align: center;
     h1{
         color: #fcde3d;
         padding: 0;
@@ -48,8 +48,13 @@ export const FilmsContainer = styled.div`
             font-size: 1.2rem;
             text-align: center;
             overflow: auto;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
         }
+        p::-webkit-scrollbar {
+        opacity: 0;
+        width: 0;
+        }
+
     } 
     
 `; 
