@@ -7,6 +7,7 @@ export const ErrorContainer = styled.div`
     align-items: center;
     justify-content: center;
     position:relative ;
+    text-align: center;
 
      svg{
       color: black;

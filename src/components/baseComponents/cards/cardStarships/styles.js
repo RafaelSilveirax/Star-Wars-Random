@@ -16,4 +16,13 @@ export const StarshipsContainer = styled.div`
         font-size: 1.5rem;
         font-weight: bold;
     }
+    @media only screen and (max-width: 500px) {
+        h1{
+            font-size: 1.6rem;
+        }
+        p{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    } 
 `; 

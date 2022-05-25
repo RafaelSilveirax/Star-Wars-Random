@@ -14,11 +14,11 @@ export const Container = styled.div`
       color: #fcde3d;
    }
 `; 
-
 export const SubContainer = styled.div`
    max-width: 600px;
    width: calc(100% - 30px);
-   height: 600px;
+   max-height: 600px;
+   height: calc(100% - 30px);;
    display: flex;
    align-items: center;
    justify-content: center;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const BtnRandomContainer = styled.footer`
+export const BtnRandomContainer = styled.div`
        
       button{
         color: black;
@@ -14,7 +14,7 @@ export const BtnRandomContainer = styled.footer`
         cursor: pointer;
         font-size: 1em;
         font-weight: bold;
-        margin: 0;
+        margin-top: 5px;
         padding: 0;
       } 
 

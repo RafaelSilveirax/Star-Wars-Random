@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
-export const FilmsContainer = styled.footer`
+export const FilmsContainer = styled.div`
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     overflow: hidden;
 
     h1{
+        color: #fcde3d;
         padding: 0;
+        margin: 0;
     }
     h2{
         color:#FCDE3D;
@@ -37,10 +40,14 @@ export const FilmsContainer = styled.footer`
   }
 }
 
-@media only screen and (max-width: 615px) {
-    p{
-        font-size: 1.4rem;
-    }
-}
+@media only screen and (max-width: 500px) {
+        h1{
+            font-size: 1.6rem;
+        }
+        p{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    } 
     
 `; 

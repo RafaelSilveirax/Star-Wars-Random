@@ -22,4 +22,10 @@ export const NavContainer = styled.div`
       font-size: 2rem;
       font-weight: bolder;
    }
+
+   @media only screen and (max-width: 500px) {
+    h1{
+      font-size: 1.6rem;
+    }
+  } 
 `; 

@@ -25,6 +25,9 @@ export const NavItem = styled.div`
         cursor: pointer;
         font-size: 1em;
         font-weight: bold;
+        margin-bottom: 5px;
     }
+
+  
 `; 
 

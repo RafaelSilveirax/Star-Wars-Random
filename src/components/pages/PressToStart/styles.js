@@ -6,6 +6,7 @@ export const PressContainer = styled.div`
    align-items: center;
    justify-content: center;
    flex-direction: column;
+   text-align: center;
 
    img{
     display: block;
@@ -23,7 +24,6 @@ export const PressContainer = styled.div`
       opacity: 0;
   }
 
-  
   @keyframes fadeout {
     from {
         width: 100%;
@@ -32,6 +32,11 @@ export const PressContainer = styled.div`
         width: 50%;
     }
   }
-   
+  
+  @media only screen and (max-width: 500px) {
+    h1{
+      font-size: 1.5rem;
+    }
+  }
 
 `; 
