@@ -1,9 +1,8 @@
 import api from "../../services/api"
 import { useState, useEffect } from "react";
-
 import Nav from "../baseComponents/nav/Nav";
-
 import Loading from "../baseComponents/loading/Loading";
+import Error from "../baseComponents/error";
 
 function makeNewArray(categories){
   var arr = []
@@ -25,12 +24,10 @@ export function Home(){
         setRequestSuc(false)
       })
     }, []);
-  
-    if (!categories) return null ;
 
     return(
       <>
-        {!requestSuc ? <h1>Erro</h1> 
+         {!requestSuc ? <Error/>
         : loading ? <Loading/> 
         : <Nav categories={categories}/>}
       </>
