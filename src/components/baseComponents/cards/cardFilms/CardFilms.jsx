@@ -1,11 +1,11 @@
 import * as S from './styles'
 
-function CardFilms({itemRandom}){
+function CardFilms({req}){
     return(
         <S.FilmsContainer>
-            <h1>{itemRandom.title}</h1>
-            <h2>{itemRandom.episode_id}</h2>
-            <p>{itemRandom.opening_crawl}</p>
+            <h1>{req.title}</h1>
+            <h2>{req.episode_id}</h2>
+            <p>{req.opening_crawl}</p>
         </S.FilmsContainer>
     )
 } 
