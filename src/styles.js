@@ -13,6 +13,9 @@ export const Container = styled.div`
    h1{
       color: #fcde3d;
    }
+   p{
+      text-align: center;
+   }
 `; 
 export const SubContainer = styled.div`
    max-width: 600px;

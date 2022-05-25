@@ -20,8 +20,11 @@ export const PressContainer = styled.div`
   animation-duration: 5s;
   animation-fill-mode: forwards;
   }
-  .hide{
-      opacity: 0;
+
+  h1{
+    animation-name: fadetext;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
   }
 
   @keyframes fadeout {
@@ -30,6 +33,15 @@ export const PressContainer = styled.div`
     }
     to {
         width: 50%;
+    }
+  }
+
+  @keyframes fadetext {
+    from {
+        opacity: 0;
+    }
+    to {
+      opacity: 1;
     }
   }
   

@@ -47,6 +47,8 @@ export const FilmsContainer = styled.div`
         p{
             font-size: 1.2rem;
             text-align: center;
+            overflow: auto;
+            margin-bottom: 30px;
         }
     } 
     
