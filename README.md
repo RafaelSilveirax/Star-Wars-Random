@@ -15,7 +15,7 @@ Projeto pronto para rodar.
 
 <img src="https://s8.gifyu.com/images/press.gif">
 <img src="https://i.imgur.com/zhqnHZR.png" >
-<img src="https://s8.gifyu.com/images/text_1.gif" >
+<img src="[https://s8.gifyu.com/images/text_1.gif](https://s8.gifyu.com/images/text_1.gif)">
 <img src="https://i.imgur.com/eMNVDyz.png">
 
 
